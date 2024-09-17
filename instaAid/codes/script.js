@@ -6,7 +6,7 @@ const diagnosis_images_list = document.getElementById("diagnosis-images-list")
 
 
 for (let i = 0; i < disease_diagnosis.length; i++) {
-    const item_html = `<a href='/${disease_diagnosis[i]}'><div class='item'>${disease_diagnosis[i]}</div><a/>`
+    const item_html = `<a href='./${disease_diagnosis[i]}.html'><div class='item'>${disease_diagnosis[i]}</div><a/>`
     list_item.innerHTML += item_html
 }
 
