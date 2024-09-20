@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #004e54;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* .header-l{
+    display: flex;
+    align-items: center;
+} */
+
+.r-h {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    /* display: flex; */
+    align-items: center;
+    transition: color 0.5s ease;
+}
+
+.r-h:hover{
+    color: #006f7a;
+}
+
+.r-h i {
+    width: px;
+    height: 24px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* display: none; */
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: -5px;
+    padding: 20px;
+    background-color: #004e54;
+}
+
+.tab-button {
+    background-color: white;
+    border: none;
+    color: #004e54;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+/* .tab-button.active {
+    background-color: white;
+    color: #004e54;
+    
+} */
+
+.tab-button:hover {
+    background-color: #006f7a;
+    color: white;
+    
+}
+
+main {
+    padding: 40px;
+    /* text-align: center; */
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul,
+ol {
+    /* list-style-type: none; */
+    padding-left: 50px;
+    margin-left: 0;
+
+}
+
+li {
+    /* margin-bottom: 15px; */
+    /* text-indent: -15px; */
+    padding-left: 10px
+}
+
+ul li {
+    counter-increment: item;
+    /* text-indent: -15px;
+    padding-left: 15px; */
+    line-height: 1.6;
+    /* Adds a gap between lines of text within the ordered list item */
+}
+
+ol li {
+    counter-increment: item;
+    /* text-indent: -15px;
+    padding-left: 15px; */
+    line-height: 1.6;
+    /* Adds a gap between lines of text within the ordered list item */
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 20px;
+    }
+}
