@@ -7,11 +7,12 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 /****************************************************************START************************************************************************************************************************* */
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
     align-items: center;
     border-bottom: 1px solid #ddd;
@@ -25,11 +26,11 @@ body {
 .logo span {
     color: red;
 }
-
 .menu a {
     margin-left: 20px;
     text-decoration: none;
     color: #333;
+
 }
 /* ****************************************************************END************************************************************************************************************************* */
 
