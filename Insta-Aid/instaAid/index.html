@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/hero_style.css">
+    <link rel="stylesheet" href="styles/diagnosis_style.css">
+    <link rel="stylesheet" href="styles/mission_sections.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Alegreya Sans SC -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Montserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Inter -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <title>InstaAid</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+            <p>InstaAid</p>
+            <img src="images/logo_icon.png" alt="">
+        </div>
+        <div class="nav-bar-right-al">
+            <div class="menu-items">
+                <p>About Us</p>
+                <div class="language-selector">
+                    <img src="images/globe.png" alt="globe">
+                    <p>English</p>
+                </div>
+            </div>
+            <img src="images/history.png" alt="history" class="history-img">
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img class="bg-img-hero" src="images/bg_img.png" alt="">
+            <div class="contents">
+                <h1>EMPOWERING AID, INSTANT RELIEF...</h1>
+                <p>Insta-Aid your virtual lifeline!</p>
+                <div class="chat-section">
+                    <div class="input-section">
+                        <div class="woman-img">
+                            <img src="images/nurse.png" alt="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" name="InstaChat" id="insta_chat" placeholder="Chat with Insta...">
+                        </div>
+                    </div>
+                    <button><img src="images/send_icon.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Diagnosis Section -->
+    <section class="diagnosis-section">
+        <ul id="list"></ul>
+        <div class="descriptive-images-container">
+            <ul id="diagnosis-images-list"></ul>
+        </div>
+    </section>
+
+    <section class="mission-vission">
+        <h2>Mission, Vision, and Values</h2>
+        <hr>
+        <div class="mvv-item-container">
+            <h3>IA Mission</h3>
+            <p>To revolutionize healthcare delivery by providing accessible, accurate, and AI-driven solutions that
+                empower patients and healthcare providers to make informed decisions and enhance the quality of care.
+            </p>
+        </div>
+        <div class="mvv-item-container">
+            <h3>IA Vision</h3>
+            <p>A world where AI-driven healthcare ensures personalized, efficient, and equitable treatment for all,
+                transforming the patient experience and advancing medical practice for future generations.</p>
+        </div>
+        <div class="mvv-item-container">
+            <h3>IA Value</h3>
+            <ul>
+                <li>
+                    <b>Patient-Centricity</b>: Prioritizing the well-being, dignity, and privacy of every individual.
+                </li>
+                <li>
+                    <b>Innovation</b>: Continuously pushing the boundaries of AI to improve healthcare delivery.
+                </li>
+                <li>
+                   <b> Ethics and Transparency</b>: Ensuring that our technology adheres to the highest standards of integrity
+                    and accountability.
+                </li>
+                <li>
+                    <b>Collaboration</b>: Working hand-in-hand with healthcare professionals, patients, and institutions
+                    to create solutions that truly meet the needs of the community.
+                </li>
+                <li>
+                    <b>Accessibility</b>: Committed to making healthcare more accessible and affordable through technology.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>@ 2024 NITDA. All Rights Reserved.</p>
+    </footer>
+    <!-- Modules -->
+    <script src="codes/constants.js" type="module"></script>
+    <script type="module" src="codes/script.js"></script>
+</body>
+
+</html>
