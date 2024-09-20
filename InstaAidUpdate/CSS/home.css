@@ -320,3 +320,150 @@ body {
         transform: rotate(360deg);
     }
 }
+
+
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+
+    .logo h1 {
+        font-size: 20px;
+    } 
+
+    .menu a {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .hero-section {
+        padding: 80px 10px;
+    }
+
+    .hero-section h2 {
+        font-size: 28px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .categories {
+        flex-direction: column;
+    }
+
+    .categories button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .aid-card {
+        width: 120px;
+    }
+
+    .mission-vision-values {
+        padding: 40px 20px;
+    }
+
+    .mission-vision-values h2 {
+        font-size: 24px;
+    }
+
+    .mission-vision-values h3 {
+        font-size: 18px;
+    }
+
+    .mission-vision-values p,
+    .mission-vision-values li {
+        font-size: 14px;
+    }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+    .logo h1 {
+        font-size: 22px;
+    }
+
+    .menu a {
+        margin-left: 15px;
+    }
+
+    .hero-section {
+        padding: 100px 20px;
+    }
+
+    .hero-section h2 {
+        font-size: 34px;
+    }
+
+    .hero-section p {
+        font-size: 17px;
+    }
+
+    .categories button {
+        font-size: 14px;
+    }
+
+    .aid-card {
+        width: 140px;
+    }
+
+    .mission-vision-values {
+        padding: 60px 40px;
+    }
+
+    .mission-vision-values h2 {
+        font-size: 26px;
+    }
+
+    .mission-vision-values h3 {
+        font-size: 19px;
+    }
+
+    .mission-vision-values p,
+    .mission-vision-values li {
+        font-size: 15px;
+    }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+
+    .hero-section {
+        padding: 140px 50px;
+    }
+
+    .hero-section h2 {
+        font-size: 40px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+
+    .categories button {
+        font-size: 16px;
+    }
+
+    .aid-card {
+        width: 180px;
+    }
+
+    .mission-vision-values {
+        padding: 80px 100px;
+    }
+
+    .mission-vision-values h2 {
+        font-size: 28px;
+    }
+
+    .mission-vision-values h3 {
+        font-size: 20px;
+    }
+
+    .mission-vision-values p,
+    .mission-vision-values li {
+        font-size: 16px;
+    }
+}
